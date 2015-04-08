@@ -1,6 +1,6 @@
 #unstats2osm
 
-This xslt script can be used to convert the city list you find at [UNGEGN World Geographical Names](http://unstats.un.org/unsd/geoinfo/geonames/Cities.ashx) to a compliant OSM file ready to be used in your maps. Usage: 
+This xslt script convert the city list you find at [UNGEGN World Geographical Names](http://unstats.un.org/unsd/geoinfo/geonames/Cities.ashx) to a compliant OSM file ready to be used in your maps. Usage: 
 
 ```
 xsltproc -o cities.osm unstats2osm.xslt http://unstats.un.org/unsd/geoinfo/geonames/Cities.ashx 
